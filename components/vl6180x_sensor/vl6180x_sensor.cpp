@@ -28,3 +28,5 @@ void VL6180XSensor::dump_config() {
 
 }  // namespace vl6180x_sensor
 }  // namespace esphome
+// This line registers the component with ESPHome
+REGISTER_SENSOR(VL6180XSensor, vl6180x_sensor, "VL6180X Sensor");
